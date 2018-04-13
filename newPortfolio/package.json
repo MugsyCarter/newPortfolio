@@ -1,0 +1,25 @@
+{
+  "name": "newPortfolio",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mugsy Danger Carter",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-request-proxy": "^1.0.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MugsyCarter/newPortfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/MugsyCarter/newPortfolio"
+  },
+  "homepage": "https://github.com/MugsyCarter/newPortfolio"
+}
