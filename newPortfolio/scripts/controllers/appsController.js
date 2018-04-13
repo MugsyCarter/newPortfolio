@@ -14,5 +14,9 @@
     });
   };
 
+  appsController.revealProjects = function(projectsObj) {
+    cityView.handleStateRental(stateObj);
+  };
+
   module.appsController = appsController;
 })(window);
