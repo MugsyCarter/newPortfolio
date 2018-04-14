@@ -1,0 +1,25 @@
+
+
+var symNum = function(formula)
+{
+for (var i = 0; i < formula.length; i++)
+if (formula.charAt(i) == [0-9])
+{
+var x1 = formula.charAt(i);
+}
+
+}
+else if (formula.charAt(i) == [a-z])
+return(x1);
+}
+
+
+symNum("H2O");
+
+
+
+
+
+
+
+symNum("Al2O3"); 

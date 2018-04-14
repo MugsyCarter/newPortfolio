@@ -1,0 +1,69 @@
+//splits a compound into elements and numbers
+function chemRead(formula)
+{
+
+var array = formula.split(/(?=[A-Z])/);
+
+return array;
+
+}
+
+
+chemRead ("Ca6H12O6");
+
+//splits a compound into elements and numbers
+
+
+
+
+
+//splits a reaction into reactants and products
+function reactProducts(formula)
+{
+
+var array = formula.split(/(?=[=])/);
+
+
+return array;
+
+}
+
+
+reactProducts("Ca6H12O6 = CO2 + H2O");
+
+//splits a reaction into reactants and products
+
+
+//splits a reaction into elements and numbers
+function reactProducts(formula)
+{
+
+var reactantsAndProducts = formula.split(/(?=[=])/);
+var reactants = reactantsAndProducts[0];
+var products = reactantsAndProducts[1];
+
+var reactantElements = reactants.split(/(?=[A-Z&&+])/);
+var productElements = products.split(/(?=[A-Z&&+])/);
+
+for (var i = 0; i < productElements.length; i++)
+{
+if(productElements[i] == "= " || productElements[i] == "+ " )
+{
+ productElements.splice(i, 1);
+}
+}
+
+console.log(productElements);
+
+
+
+}
+
+
+reactProducts("2NaOH + H2SO4 = Na2SO4 + 2H2O");
+
+//splits a reaction into elements and numbers
+
+
+
+

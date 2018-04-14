@@ -1,0 +1,19 @@
+*{
+	font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+	color: red;
+}
+
+
+.top_div {  
+  border-width: 5px;
+  border: dashed blue;
+}
+
+}
+
+.inner_div {
+  width: 100px;
+  margin: 0 auto;
+    border: 1px solid black;
+    position: fixed;
+}

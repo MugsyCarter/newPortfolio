@@ -1,0 +1,95 @@
+var findVE = function(electrons)
+{
+
+if (electrons <= 0)
+{
+electrons = "There needs to be at least 1 electron."
+}
+else if (electrons <= 2)
+{
+}
+else if (electrons <= 10)
+{
+electrons -= 8
+}
+else if (electrons <= 18)
+{
+electrons -= 10
+}
+else if (electrons <= 18)
+{
+electrons -= 10
+}
+else if (electrons <= 20)
+{
+electrons -= 18
+}
+else if (electrons <= 30)
+{
+electrons = "This is a transition metal."
+}
+else if (electrons <= 36)
+{
+electrons -= 28
+}
+else if (electrons <= 38)
+{
+electrons -= 36
+}
+else if (electrons <= 48)
+{
+electrons = "This is a transition metal."
+}
+
+else if (electrons <= 54)
+{
+electrons -= 46
+}
+else if (electrons <= 56)
+{
+electrons -= 54
+}
+else if (electrons <= 70)
+{
+electrons = "This is an inner transition metal."
+}
+else if (electrons <= 80)
+{
+electrons = "This is a transition metal."
+}
+
+else if (electrons <= 86)
+{
+electrons -= 78
+}
+
+else if (electrons <= 88)
+{
+electrons -= 86
+}
+else if (electrons <= 102)
+{
+electrons = "This is an inner transition metal."
+}
+else if (electrons <= 112)
+{
+electrons = "This is a transition metal."
+}
+
+else if (electrons <= 118)
+{
+electrons -= 110
+}
+else 
+{
+electrons = "This element is bigger than any that currently exist."
+}
+console.log(electrons);
+}
+
+findVE(16);
+findVE(54);
+findVE(32);
+findVE(20);
+findVE(26);
+findVE(86);

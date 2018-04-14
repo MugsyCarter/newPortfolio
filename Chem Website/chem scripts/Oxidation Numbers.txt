@@ -1,0 +1,59 @@
+var assignOx = function(formula)
+{
+for(var i = 0; i <= formula.count; i++)
+if (formula.charAt(i) == NaN)
+{
+var x1 = formula.charAt(i);
+}
+return(x1);
+}
+
+
+assignOx("H2O");
+
+
+
+
+var O1,H1;
+
+var oHBalance = function(formula)
+{
+for(var i = 0; i <= formula.count; i++)
+if (formula.charAt(i) == "O")
+{
+var O1= formula.charAt(i++);
+}
+else if (formula.charAt(i) == "H")
+{
+var H1= formula.charAt(i++);
+}
+
+alert("There are " + H1 + " hydrogens and " + O1 + " oxygens.");
+}
+
+
+oHBalance("H4O2");
+
+
+
+var O1 = 0;
+
+var oHBalance = function(formula)
+{
+for(var i = 0; i <= formula.count; i++)
+if (formula.charAt(i) == "O")
+{
+var O1= formula.charAt(i);
+}
+
+alert("There are 4 hydrogens and " + O1 + " oxygens.");
+}
+
+
+oHBalance("H4O2");
+
+
+
+
+
+

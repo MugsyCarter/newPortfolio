@@ -1,0 +1,28 @@
+.header{
+	color: red;
+}
+.main-content{
+	color: blue;
+}
+.skill_images{
+    height: auto; 
+    width: auto; 
+    max-width: 25%; 
+    max-height: 25%;
+}
+
+.skill_images list-style-image {
+	display: inline;
+	padding-left: 11px;
+	height: auto; 
+    width: auto; 
+    max-width: 25%; 
+    max-height: 25%;
+}
+
+.skill_images li{
+    height: auto; 
+    width: auto; 
+    max-width: 25%; 
+    max-height: 25%;
+}

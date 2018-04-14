@@ -15,8 +15,12 @@
   };
 
   appsController.revealProjects = function(projectsObj) {
-    cityView.handleStateRental(stateObj);
+    appsView.showProjects(projectsObj);
   };
+
+  console.log(Projects.projects);
+
+  appsController.revealProjects(Projects);
 
   module.appsController = appsController;
 })(window);
